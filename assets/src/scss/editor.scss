@@ -1,0 +1,13 @@
+.events-date-picker {
+    display: flex;
+    gap: 20px;
+}
+
+.date-picker {
+    display: inline-block;
+
+    span {
+        font-weight: bold;
+        margin-right: 10px;
+    }
+}

@@ -17,9 +17,9 @@ include(get_theme_file_path('/includes/shortcodes/siteurl.php'));
 include(get_theme_file_path('/includes/shortcodes/username.php'));
 
 
-// Hooks
-add_action('wp_enqueue_scripts', 'lgg_add_theme_assets', 9);
-add_action( 'enqueue_block_editor_assets', 'lgg_add_theme_assets' );
+// Post Types
+include(get_theme_file_path('/post-types/events/events.php'));
+include(get_theme_file_path('/post-types/events/meta.php'));
 
 
 // Tracking Codes
