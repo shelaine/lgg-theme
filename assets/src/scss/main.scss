@@ -190,6 +190,18 @@ main.fullwidth {
     
 }
 
+main.maintenance {
+    max-width: none !important;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main.maintenance > .is-layout-constrained > .wp-block-group.has-background {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
 
 .site-content.fullwidth {
     max-width: none !important;
@@ -199,6 +211,10 @@ main.fullwidth {
 
     main {
        padding: 0 30px; 
+    }
+
+    main.maintenance {
+        padding: 0;
     }
 
     main.fullwidth {
