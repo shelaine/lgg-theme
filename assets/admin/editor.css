@@ -1,0 +1,25 @@
+
+
+h1.wp-block-post-title.editor-post-title.editor-post-title__input {
+    font-size: 20px;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4 {
+    line-height: normal !important;
+}
+
+#event-date-meta {
+    max-width: 500px;
+    margin: auto;
+    background-color: red;
+}
+
+.events-date-picker {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}

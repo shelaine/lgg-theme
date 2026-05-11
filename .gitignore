@@ -1,0 +1,5 @@
+**/.DS_Store
+node_modules
+/includes/shortcodes
+/includes/tracking
+/includes/front/pw-protected.php
